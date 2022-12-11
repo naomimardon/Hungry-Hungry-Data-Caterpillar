@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/style.css" type="text/css" rel="stylesheet"/>
     <title>Hungry Hungry Data Caterpillar</title>
 </head>
 <body>
     <header>
-        <h1>Hungry Hungry Data Caterpillar</h1>
-        <a href="form">Contact Form</a>
-    </header>
+        <div class="header">
+          <h1>Hungry Hungry Data Caterpillar</h1>
+            <div class="contact-link">
+                <a href ="Home"> Home</a>
+                <a href ="Types of caterpillars"> Types of caterpillars</a>          
+                <a href="form">Contact Form</a>
+            </div>
+        </div>
+    </header>    
     <br>
-    <img src="assets/image.png" alt="Hungry Hungry Caterpillar">
+    <div class="image">
+      <img src="assets/image.png" alt="Hungry Hungry Caterpillar">
+    </div>
     <p>Hungry Hungry Data Caterpillar</p>
     <br>
 <form>
-    <label for= "name">
+    <div class="form">
+     <label for= "name">
         Name: <input type="text" id="name" name="user_name" />
-    </label>
-    <label for= "email">
+     </label>
+     <label for= "email">
         Email Address: <input type="text" id="email" name="email" />
-    </label>
-    <label for= "phone">
+     </label>
+     <label for= "phone">
         Phone: <input type="text" id="phone" name="phone" />
-    </label>
- </form>
- <button class="button"
+     </label>
+     <button class="button"
         type="button">
-    Submit
-</button>
+      Submit
+     </button>
+    </div>
+ </form>
+<footer></footer>
 </body>
     
 </html>
