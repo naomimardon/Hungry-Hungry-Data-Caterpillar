@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px blue;
+    border: 20px color=red;
+    margin: 30px purple;
+}
+body{
+    background-color: rgb(183, 255, 231);
+}
+form{
+
+}
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+}
+img{
+background-image: url(./assets/image.png)
+width: 211px;
+height: 150px;
+}
