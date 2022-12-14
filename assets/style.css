@@ -1,45 +1,52 @@
+
 .body{
     background-color: lightgrey;
 }
+
 .header{
     display:block;
     background-color: lightgreen;
-}
-.header{
-    padding: 10px;
-}
-.header{
+    padding: 10px blue;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
+    text-align: center;
+    border: 20px color=red;
+    margin: 30px purple;
 }
+
 .contact-link{
     display:inline;
     background-color: lightgoldenrodyellow;
-}
-.contact-link{
     font-style: normal;
 }
+
+img{
+background-image: url(./assets/image.png)
+width: 211px;
+height: 150px;
+}
+
 .image{
     position:absolute;
     top: 150px;
     left: 710px
-}
-.image{
     padding:10px;
     background-color: black;
 }
+
 .form{
     position:absolute;
     top: 300px;
     left: 60px
-}
-.form{
     padding: 20px;
     background-color: brown;
-}
-.form{
     display:inline;
     height:200px;
     width: 200px;
+}
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
 }
