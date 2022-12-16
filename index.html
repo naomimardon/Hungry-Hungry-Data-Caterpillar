@@ -2,51 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/style.css" type="text/css" rel="stylesheet"/>
-    <title>Hungry Hungry Data Caterpillar</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <title>Hungry Hungry Data Caterpillar</title>
 </head>
 
 <body>
-    <header>
-        <div class="header">
-          <h1>Hungry Hungry Data Caterpillar</h1>
-            <div class="contact-link">
-                <a href ="Home"> Home</a>
-                <a href ="Types of caterpillars"> Types of caterpillars</a>          
-                <a href="form">Contact Form</a>
-            </div>
-        </div>
-    </header>    
-    <br>
-    <div class="image">
-      <img src="assets/image.png" alt="Hungry Hungry Caterpillar">
+  <header>
+    <h1>Hungry Hungry Data Caterpillar</h1>
+    <div>
+      <a href="https://foyr.com/learn/how-to-design-your-dream-home/" class="Link_Button">Home</a>
+      <a href="https://www.field-studies-council.org/shop/publications/caterpillars-guide/?gclid=CjwKCAiAy_CcBhBeEiwAcoMRHLn20QFZiq6MqgyBd2AD5Vh8-1e8jogXIarLg_0ZJ8oB7TRKDRAgpxoCsUwQAvD_BwE"
+        class="Link_Button">Types of Caterpillars</a>
+      <a href="#form" class="Link_Button" id="Form_Link">Contact Form</a>
     </div>
-    <p>Hungry Hungry Data Caterpillar</p>
-    <br>
-    <form>
-    <div class="form">
-     <label for= "name">
-        Name: <input type="text" id="name" name="user_name" />
-     </label>
-     <label for= "email">
-        Email Address: <input type="text" id="email" name="email" />
-     </label>
-     <label for= "phone">
-        Phone: <input type="text" id="phone" name="phone" />
-     </label>
-     <button class="button"
-        type="button">
-      Submit
-     </button>
-    </div>
- </form>
-<footer></footer>
-</body>
-<footer>
+  </header>
+  <br>
+  <div class="image">
+    <img src="assets/image.png" alt="Hungry Hungry Caterpillar">
+  </div>
+  <br>
+  <a id="form">
+    <h2>Fill in this form to provide your contact details:</h2>
+  </a>
+  <form form="form1">
+    <fieldset>
+      <p>
+        <label for="first name">First Name:</label>
+        <input type="text" id="firstname" name="firstname" />
+      </p>
+      <p>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" />
+      </p>
+      <p>
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="date" id="date" name="date" />
+      </p>
+      <p>
+        <label for="house number">House Number:</label>
+        <input type="number" id="housenumber" name="housenumber" />
+      </p>
+      <p>
+        <label for="streetname">Street Name:</label>
+        <input type="text" id="streetname" name="streetname" />
+      </p>
+      <p>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" />
+      </p>
+      <p>
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" />
+      </p>
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email" />
+      <p>
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" name="phone" />
+      </p>
+      <p>
+        <label for="message">Add a message here:</label>
+        <textarea id="message"></textarea>
+      </p>
+      <br>
+      <button class="button" type="submit" form="form1" value="submit">
+        Submit
+      </button>
+      <br>
+    </fieldset>
+  </form>
+  <br>
+
+
+
+  <footer>
     <p>Thank you for all your data. We totally won't sell it on to advertisers!</p>
-</footer>
-    
+  </footer>
+
+</body>
+
 </html>

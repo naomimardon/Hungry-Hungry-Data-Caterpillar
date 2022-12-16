@@ -1,52 +1,99 @@
-
-.body{
+body {
     background-color: lightgrey;
+    padding: 200px;
 }
 
-.header{
-    display:block;
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     background-color: lightgreen;
-    padding: 10px blue;
+    padding: 20px;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
     text-align: center;
-    border: 20px color=red;
-    margin: 30px purple;
 }
 
-.contact-link{
-    display:inline;
+.Link_Button {
+    display: inline;
     background-color: lightgoldenrodyellow;
     font-style: normal;
+    margin: 50px;
+    border: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-img{
-background-image: url(./assets/image.png)
-width: 211px;
-height: 150px;
+h2 {
+    position: absolute;
+    top: 180px;
+    left: 100px;
 }
 
-.image{
-    position:absolute;
-    top: 150px;
-    left: 710px
-    padding:10px;
+img {
+    background-image: url(./assets/image.png) width: 211px;
+    height: 400px;
+}
+
+.image {
+    position: absolute;
+    top: 300px;
+    left: 710px;
+    padding: 10px;
     background-color: black;
 }
 
-.form{
-    position:absolute;
-    top: 300px;
-    left: 60px
-    padding: 20px;
+fieldset {
+    position: absolute;
+    top: 250px;
+    left: 100px;
     background-color: brown;
-    display:inline;
-    height:200px;
-    width: 200px;
+    display: block;
+    font-weight: bold;
+    margin: 50px;
 }
 
-footer{
+label {
+    display: block;
+}
+
+input, textarea {
+    display:block;
+    width:75%;
+    border:2px solid rgb(171, 64, 73);
+    padding:0.5rem;
+    font:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border-radius:size5px; */
+}
+
+button {
+    border:0;
+    background:slateblue;
+    width: 100%;
+    padding:.6rem;
+    color:white;
+    margin:2rem auto;
+    width: 450px;
+    text-transform:uppercase;
+    cursor:pointer
+}
+
+button:hover {
+    background:rgb(38, 82, 30);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: gray;
     text-align: center;
     background-color: antiquewhite;
 }
